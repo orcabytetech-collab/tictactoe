@@ -1,0 +1,57 @@
+### **Core Gameplay**
+1. **3×3 Grid Board** – Classic Tic Tac Toe layout.
+2. **Two Players (Local)** – Player vs Player on the same device.
+3. **Player Symbols** – X and O (randomly or user-selected first player).
+4. **Win Detection** – Horizontal, vertical, diagonal wins.
+5. **Draw Detection** – Auto-detect when board is full with no winner.
+6. **Move Validation** – Prevent placing on occupied cells.
+
+### **Single-Player Mode**
+7. **AI Opponent (Easy/Medium/Hard)**  
+   - Easy: Random moves  
+   - Medium: Blocks win + random  
+   - Hard: Minimax algorithm (unbeatable)
+
+### **UI/UX (Minimalist)**
+8. **Clean, Responsive Design** – Works on phones/tablets, portrait mode.
+9. **Tap-to-Place** – Intuitive touch controls.
+10. **Visual Feedback**  
+    - Highlight winning line (animated)  
+    - X/O animations on placement  
+    - “Win!” / “Draw!” / “Your Turn” messages
+11. **Score Tracker** – Wins for Player 1, Player 2, AI, Draws.
+12. **New Game Button** – Instant reset.
+
+### **Settings & Customization**
+13. **Theme Toggle** – Light/Dark mode.
+14. **Sound Effects (Optional)** – Tap sound, win jingle (toggle on/off).
+15. **Vibration on Move/Win** – Haptic feedback (optional).
+16. **Choose Symbol First** – Let user pick X or O (vs AI).
+
+### **Technical & Performance**
+17. **Offline Play** – No internet required.
+18. **Fast Load (<1 sec)** – Native or lightweight framework (Flutter/React Native).
+19. **Low Battery Usage** – No background processes.
+20. **Portrait Lock** – Simple orientation.
+
+### **Nice-to-Have (Still Small)**
+21. **Local Stats** – Total games, win %, streak.
+22. **Undo Last Move** (1-step, optional).
+23. **Language Support** – English 
+24. **App Icon & Splash Screen** – Branded, minimal.
+
+### **Monetization (Optional, Non-Intrusive)**
+25. **One-Time “Remove Ads” Purchase** (if ads are shown post-game).
+26. **No Pay-to-Win** – All gameplay free.
+
+### **Size & Platform**
+- **Target Size**: <10 MB 
+- **Platforms**: Android 
+
+
+# App-Ads.txt for Your Tic Tac Toe App
+
+# Ad Network Name | Account ID | Type (direct or reseller) | Certification Authority ID (optional)
+google.com, pub-xxxxxxxxxxxxx, DIRECT, f08c47fec0942fa0
+moat.com, 123456789, DIRECT
+appnexus.com, 987654321, DIRECT
