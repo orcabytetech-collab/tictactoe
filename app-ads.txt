@@ -1,0 +1,2 @@
+# Ad Network Name | Account ID | Type (direct or reseller) | Certification Authority ID (optional)
+google.com, pub-4694580581848010, DIRECT, 
